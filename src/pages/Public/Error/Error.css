@@ -1,0 +1,52 @@
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-size: 288px;
+    font-weight: 700;
+    color: #FF6060;
+}
+
+.text_error {
+    color: #FF6060;
+    font-size: 36px;
+}
+
+.error_page a {
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1024px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    span {
+        font-size: 160px;
+    }
+
+    .text_error {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    span {
+        font-size: 100px;
+    }
+
+    .text_error {
+        font-size: 18px;
+    }
+
+    .text_error {
+        font-size: 16px;
+    }
+}

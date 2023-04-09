@@ -1,0 +1,43 @@
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 30px;
+    background-color: #F6F6F6;
+    padding: 30px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.card-area a {
+    width: 30%;
+}
+
+@media screen and (max-width:1024px) {
+    .card-area {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .card-area a {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-area {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: transparent;
+        gap: 20px;
+    }
+}
+
+/* 
+display: flex;
+flex-wrap: wrap;
+flex-direction: row; */

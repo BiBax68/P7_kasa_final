@@ -1,0 +1,144 @@
+.info-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title,
+.location,
+.host p {
+    color: #FF6060;
+    text-align: start;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.location {
+    font-size: 22px;
+}
+
+.tag {
+    margin: 5px 10px 5px 0;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+.tag span {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.8px;
+}
+
+.drop-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-area li {
+    width: 45%;
+}
+
+.host {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.host p {
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.host img {
+    border-radius: 50%;
+    height: 80px;
+}
+
+.rate-comp {
+    text-align: end;
+}
+
+.list_equipement {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_equipement p {
+    margin: 0;
+}
+
+div .text_area {
+    font-weight: 300;
+}
+
+@media screen and (max-width:768px) {
+    .logement-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-info {
+        width: 100%;
+    }
+
+    .text-info .title {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .text-info .location {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .text-info .tag-area {
+        white-space: nowrap;
+    }
+
+    .author-area {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .author-area .author {
+        height: 4rem;
+        width: auto;
+    }
+
+    .author-area .rate-comp {
+        text-align: start;
+    }
+
+    .author-area .rate-comp img {
+        max-height: 2em;
+        width: auto;
+    }
+
+    .drop-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .drop-area li {
+        width: 90%;
+    }
+
+}

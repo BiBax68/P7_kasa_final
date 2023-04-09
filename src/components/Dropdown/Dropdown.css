@@ -1,0 +1,52 @@
+.Dropdown {
+    margin: 20px 0;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.Dropdown .click_area {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.click_area {
+    background-color: #FF6060;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.Dropdown div h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.Dropdown div span {
+    font-size: 10px;
+}
+
+.text_area {
+    text-align: start;
+    background-color: #F6F6F6;
+    font-size: 22px;
+    color: #FF6060;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width:768px) {
+    .click_area span img {
+        width: 60%;
+    }
+
+    .text_area {
+        font-size: 12px;
+    }
+}
